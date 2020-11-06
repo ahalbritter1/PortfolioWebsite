@@ -30,13 +30,17 @@ a.active {
     
 }
 
-body {
+.homepageBackground {
     background-image: url("1S1A6795.jpg");
 }
 
-main {
+.aboutMeBackground {
+    background-image: url("https://assets.joelsartore.com/stock/ANI034/ANI034-00289.jpg");
+}
+
+.landing {
     color: #F2FDFF;
-    text-shadow: 1px 1px 2px black;
+    text-shadow: 3px 3px 3px black;
     
 }
 
@@ -59,4 +63,28 @@ main {
     left: 9%;
     font-family: 'Open Sans', sans-serif;
     font-size: 2em;
+}
+
+/* Landing Page & Template Above */
+
+.aboutmeHeader {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 40px;
+}
+.aboutMeLeft {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    width: 20%;
+    margin-left: 50px;
+}
+
+.aboutMeLeft > div {
+    padding: 20px;
 }
