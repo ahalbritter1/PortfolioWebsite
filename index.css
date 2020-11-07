@@ -40,7 +40,7 @@ a.active {
 
 .landing {
     color: #F2FDFF;
-    text-shadow: 3px 3px 3px black;
+    text-shadow: 1px 2px 2px black;
     
 }
 
@@ -88,3 +88,63 @@ a.active {
 .aboutMeLeft > div {
     padding: 20px;
 }
+
+
+/* About Me Page Above */
+
+.portfolioHeader {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    background: black;
+    height: 50px;
+    padding: 50px;
+}
+
+.portfolioHeader2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    background: black;
+    height: 10px;
+    padding-bottom: 100px;
+}
+
+.portfolioMain > div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+    color: white;
+    height: 150px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.portfolioMain > div > img {
+    height: 100px;
+    width: 200px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 100px;
+    box-shadow: 10px 5px 5px black;
+}
+.divport1 {
+    background-color: #0A100D;    
+}
+
+.divport2 {
+    background-color: #18261F;   
+}
+
+.divport3 {
+    background-color: #1F3229; 
+}
+.divport4 {
+    background-color: #1D3425; 
+}
+.divport5 {
+    background-color: #25412F; 
+}
+
+
+/* Portfolio Page Above */ 
