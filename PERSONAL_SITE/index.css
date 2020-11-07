@@ -1,0 +1,150 @@
+* {
+    margin: 0 auto;
+}
+
+
+nav {
+    font-family: 'Roboto', sans-serif;
+    padding: 25px;
+    color: black;
+    border-bottom: 5px solid black;
+    background: white;
+    text-align: right;   
+}
+
+a {
+    text-decoration: none;
+}
+
+a.active {
+    border-bottom: 2px solid black;
+}
+
+.name {
+    position: absolute;
+    text-align: left;
+    padding: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+
+.homepageBackground {
+    background-image: url("1S1A6795.jpg");
+}
+
+.aboutMeBackground {
+    background-image: url("https://assets.joelsartore.com/stock/ANI034/ANI034-00289.jpg");
+}
+
+.landing {
+    color: #F2FDFF;
+    text-shadow: 1px 2px 2px black;
+    
+}
+
+.homepageh1 {
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 40%;
+    margin-left: 175px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 5em;
+       
+}
+
+.homepageh2 {
+    position: absolute;
+    text-align: center;
+    width: 40%;
+    bottom: 40%;
+    left: 9%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2em;
+}
+
+/* Landing Page & Template Above */
+
+.aboutmeHeader {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 13%;
+    left: 7%;
+    font-size: 40px;
+}
+.aboutMeLeft {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 20%;
+    width: 20%;
+    margin-left: 50px;
+}
+
+.aboutMeLeft > div {
+    padding: 20px;
+}
+
+
+/* About Me Page Above */
+
+.portfolioHeader {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    background: black;
+    height: 50px;
+    padding: 50px;
+}
+
+.portfolioHeader2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: white;
+    background: black;
+    height: 10px;
+    padding-bottom: 100px;
+}
+
+.portfolioMain > div {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+    color: white;
+    height: 150px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.portfolioMain > div > img {
+    height: 100px;
+    width: 200px;
+    float: right;
+    margin-top: -30px;
+    margin-right: 100px;
+    box-shadow: 10px 5px 5px black;
+}
+.divport1 {
+    background-color: #0A100D;    
+}
+
+.divport2 {
+    background-color: #18261F;   
+}
+
+.divport3 {
+    background-color: #1F3229; 
+}
+.divport4 {
+    background-color: #1D3425; 
+}
+.divport5 {
+    background-color: #25412F; 
+}
+
+
+/* Portfolio Page Above */ 
